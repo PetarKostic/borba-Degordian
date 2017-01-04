@@ -1,0 +1,14 @@
+{
+	"require-dev":
+	{
+
+	},
+
+	"autoload":
+	{
+		"classmap":
+		[
+			"./"
+		]
+	}
+}
