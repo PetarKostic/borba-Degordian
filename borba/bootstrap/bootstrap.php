@@ -10,11 +10,11 @@
 
 		if ($army1 <= 0 || $army2 <= 0) {
 
-			$error = "Uneti tekst mora biti broj";
+		    $error = "Uneti tekst mora biti broj";
 		} else {
 			
-			$vojska1 = new Vojska($army1 , $tipVojske, "army1");
-			$vojska2 = new Vojska($army2, $tipVojske, "army2");
+		    $vojska1 = new Vojska($army1 , $tipVojske, "army1");
+	            $vojska2 = new Vojska($army2, $tipVojske, "army2");
 		    new Borba($vojska1, $vojska2);
 		}	
 	} else {
